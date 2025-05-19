@@ -32,6 +32,11 @@ for i in range(test):
         else:
             queue.append(queue.pop(0))
 
+###
+# 어려웠던 점
+# - list 내에서 값의 위치는 바뀌는데 인덱스는 그대로 알고있어야 하는 점
+# - enumerate()로 index, value를 같이 가지게는 했으나 값 비교할 때는 value만 꺼내는 것
+###
 
 
 
